@@ -1,0 +1,7 @@
+This Python package provides APIs to read, calculate and write ReplayGain
+using Python as well as two scripts that utilize these APIs to apply
+ReplayGain information on audio files.
+
+This is a Python 3 fork of Felix Krull's rgain repository on Bitbucket.
+
+WWW: https://github.com/chaudum/rgain3
