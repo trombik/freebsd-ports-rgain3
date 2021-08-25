@@ -13,8 +13,8 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		python
 USE_PYTHON=	autoplist distutils
 
-BUILD_DEPENDS=	\
-	gstreamer1-plugins-base>0:multimedia/gstreamer1-plugins-base \
+RUN_DEPENDS=	\
+	gstreamer1-plugins>0:multimedia/gstreamer1-plugins \
 	gstreamer1-plugins-good>0:multimedia/gstreamer1-plugins-good \
 	gstreamer1-plugins-bad>0:multimedia/gstreamer1-plugins-bad \
 	gstreamer1-plugins-ugly>0:multimedia/gstreamer1-plugins-ugly \
