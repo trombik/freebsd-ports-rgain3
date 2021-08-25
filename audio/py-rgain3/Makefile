@@ -18,6 +18,7 @@ BUILD_DEPENDS=	\
 	gstreamer1-plugins-good>0:multimedia/gstreamer1-plugins-good \
 	gstreamer1-plugins-bad>0:multimedia/gstreamer1-plugins-bad \
 	gstreamer1-plugins-ugly>0:multimedia/gstreamer1-plugins-ugly \
-	${PYTHON_PKGNAMEPREFIX}gobject3>0:devel/py-gobject3@${PY_FLAVOR}
+	${PYTHON_PKGNAMEPREFIX}gobject3>0:devel/py-gobject3@${PY_FLAVOR} \
+	${PYTHON_PKGNAMEPREFIX}mutagen>0:audio/py-mutagen@${PY_FLAVOR}
 
 .include <bsd.port.mk>
